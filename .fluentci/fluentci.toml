@@ -1,0 +1,7 @@
+[[steps]]
+name = "test"
+command = ["fluentci run --wasm gradle test"]
+
+[[steps]]
+name = "build"
+command = ["fluentci run --wasm gradle build"]
